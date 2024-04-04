@@ -65,6 +65,8 @@ class MoviePosterTest {
 
     }
 
+    @Test
+
     public void findLastOverLimitWithNewLimit() { //вывод списка фильмов с увеличением лимита отображаемых фильмов
         MoviePoster moviePoster = new MoviePoster(7);
         String movie1 = "Bloodshot";
